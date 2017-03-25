@@ -156,7 +156,7 @@ a:hover {
 
 .padre {
     width: 1000px;
-    margin: 7px auto;
+    margin: 0 auto;
     display: flex;
     -webkit-justify-content: space-between;
             justify-content: space-between;
@@ -179,22 +179,19 @@ a:hover {
 }
 
 .pagination-wrapper {
-    display: inline;
-    width: auto;
     background: #EFEFEF;
+    display: flex;
+    -webkit-justify-content: center;
+            justify-content: center;
 }
 
 .pagination {
+    background: #fff;
     margin: auto;
     border: 1px solid #c1c1c1;
     border-radius: 5px;
-    display: flex;
     font-weight: 700;
-    padding: 5px;
-    width: 25%;
-    justify-content: center;
-    -webkit-box-align: center;
-            box-align: center;
+    padding: 10px 5px;
     -webkit-align-items: center;
             align-items: center;
     
