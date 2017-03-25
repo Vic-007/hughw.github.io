@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Platzi Blog | Desarrollo, marketing y diseño Web</title>
-	<link rel="icon" href="images/platzi-icon.jpg" />
+	<link rel="icon" href="images/platzi-icon-clr.png" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device, user-escalable=no, initial-scale=1, maximum-scale=720" />
 
@@ -12,7 +12,10 @@
 	<header class="header" itemscope="itemscope" role="banner">
 		<div class="wrap">
 			<a class="header-logo" href="https://platzi.com/"><img src="images/platzi-logo.png" alt="Platzi Blog" /></a>
-			<label style="text-decoration: none; color: yellow" class="inicia">Inicia sesión</label>
+			<a href="">
+				<label class="inicia"
+				>Inicia Sesión</label>
+			</a>
 			<nav class="menu-nav">
 				<ul class="menu">
 					<li class="barra"><a href="/cursos/">Cursos</a></li>
@@ -28,22 +31,22 @@
 	<section class="promoted">
 		<div class="cover">
 			<article class="promoted-post">
-			<a href="#">
-				<figure class="post-image">
-					<img src="images/cover_blog.jpg" alt=""></img>
-				</figure>
-				<div class="promoted-data">
-				 	<div class="post-tittle">
-				 		<h2>Consejos que aymentarán tu efectividad al trabajar desde casa</h2>
-						<div class="author">
-							<p>Juan Castruita</p>
-						</div>
-						<div class="date">
-							<p>abril 13 2016</p>
-						</div>
-				 	</div>
-				</div>
-			</a>
+				<a href="#">
+					<figure class="post-image">
+						<img src="images/cover_blog.jpg" alt=""></img>
+					</figure>
+					<div class="promoted-data">
+					 	<div class="post-tittle">
+					 		<h2>Consejos que aymentarán tu efectividad al trabajar desde casa</h2>
+							<div class="author">
+								<p>Juan Castruita</p>
+							</div>
+							<div class="date">
+								<p>abril 13 2016</p>
+							</div>
+					 	</div>
+					</div>
+				</a>
 			</article>
 		</div>
 
@@ -51,8 +54,10 @@
 		<div class="padre">
 			<div class="hijo">
 				<div class="post-tittle">
+				<a href="" name="img1">
 					<img src="images/animaciones-css3.jpg">
-					<h2>Animaciones en CSS3</h2>
+				</a>
+					<h2 id="img1">Animaciones en CSS3</h2>
 					<div class="author">
 						<p>Yare Saavedra</p>
 					</div>
@@ -157,10 +162,19 @@
 					</div>
 				</div>	
 			</div>
-
 		</div>
-
 	</section>
+	
+		<div class="pagination-wrapper">
+			<div class="pagination">
+				<a class="pagination-number is-current" href="">1</a>
+				<a class="pagination-number" href="">2</a>
+				<a class="pagination-number" href="">3</a>
+				<a class="pagination-number" href="">4</a>
+				<a class="pagination-next" href=""><span>SIGUIENTE</span></a>		
+			</div>
+		</div>
+	
 
 
 	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
