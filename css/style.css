@@ -131,16 +131,21 @@ a:hover {
 }
 
 .post-tittle {
-    padding-bottom: 20px;
     color: #515151;
+    padding-bottom: 20px;
     font-weight: normal;
-    text-decoration: none;
+    /*text-decoration: none;*/
     /*-webkit-justify-content: justify;
             justify-content: justify;*/
     display: block;
 }    
 
-.post-tittle h2{
+.post-tittle a {
+    text-decoration: none;
+}
+
+.post-tittle h2 {
+    color: #515151;
     border-bottom: 2px solid #c1c1c1;
     padding: 10px 0;
     margin-bottom: 10px;
